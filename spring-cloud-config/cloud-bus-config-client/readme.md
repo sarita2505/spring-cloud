@@ -9,8 +9,11 @@ The default username is: ‘guest’; password: ‘guest’.
 
 RabbitMQ will also listen on port 5672. (but the web port is 15672)
 
+We maintain the application propertie shere:
 
-run this application on 2 ports with below command
+https://github.com/sarita2505/config-server-property/blob/master/application.properties
+
+Run this application (current folder) on 2 ports with below command
 java -jar -Dserver.port=9090 traget/app.war
 java -jar -Dserver.port=9091 traget/app.war
 
